@@ -13,7 +13,7 @@ export default createStore({
   },
   plugins: [
     createPersistedState({
-      key: "vite-app-ts-cache",
+      key: "vue3-app-ts-cache",
       storage: {
         getItem: (key) => ls.get(key),
         setItem: (key, value) => ls.set(key, value),
